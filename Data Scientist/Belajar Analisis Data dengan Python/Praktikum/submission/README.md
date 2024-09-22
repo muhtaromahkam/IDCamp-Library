@@ -4,6 +4,16 @@
 
 Proyek ini menampilkan dashboard interaktif yang dibangun menggunakan Streamlit untuk menganalisis e-commerce publik dataset.
 
+## Running the Dashboard
+
+To run the E-Commerce Public Dataset Analysis dashboard using Streamlit, follow these steps:
+
+1. **Install Required Libraries**
+   Make sure you have the required libraries installed. You can install them using pip:
+   ```bash
+   pip install pandas matplotlib seaborn streamlit babel
+
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -45,6 +55,18 @@ Untuk menyiapkan proyek ini di mesin lokal Anda, ikuti langkah-langkah berikut:
     Untuk menggunakan lingkungan virtual untuk mengelola dependensi proyek Anda. Anda dapat membuatnya menggunakan:
     ```bash
     python -m venv
+
+## How to use Dashboard
+
+1. **Navigate to the project directory**: 
+    Ubah direktori saat ini ke folder proyek:
+    ```bash
+    cd Data Scientist/Belajar Analisis Data dengan Python/Praktikum/submission/dashboard
+
+2. **Run the streamlit dashboard**: 
+    Jalankan dashboard menggunakan perintah:
+    ```bash
+    streamlit dashboard.py
 
 ## Data Sources
 
