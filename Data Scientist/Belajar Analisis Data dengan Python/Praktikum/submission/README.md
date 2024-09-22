@@ -36,12 +36,10 @@ Untuk menyiapkan proyek ini di mesin lokal Anda, ikuti langkah-langkah berikut:
     ```bash
     cd Data Scientist/Belajar Analisis Data dengan Python/Praktikum/submission
 
-
 3. **Install required Python packages**: 
     Gunakan pip untuk menginstal dependensi yang diperlukan yang tercantum dalam file requirements.txt:
     ```bash
     pip install -r requirements.txt
-
 
 4. **(Optional) Create a virtual environment**: 
     Untuk menggunakan lingkungan virtual untuk mengelola dependensi proyek Anda. Anda dapat membuatnya menggunakan:
