@@ -47,7 +47,8 @@ def create_rfm_df(df):
 
     return rfm_df
 
-all_df = pd.read_csv(r"D:\Education\Self Study\IDCamp Library\Data Scientist\Belajar Analisis Data dengan Python\Praktikum\submission\data\all_data.csv")
+url = "https://raw.githubusercontent.com/muhtaromahkam/IDCamp-Library/refs/heads/main/Data%20Scientist/Belajar%20Analisis%20Data%20dengan%20Python/Praktikum/submission/dashboard/all_data.csv"
+all_df = pd.read_csv(url)
 
 datetime_columns = ["order_purchase_timestamp", "order_delivered_carrier_date"]
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
