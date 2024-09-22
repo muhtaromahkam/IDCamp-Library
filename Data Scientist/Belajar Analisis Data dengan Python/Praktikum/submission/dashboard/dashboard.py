@@ -47,8 +47,7 @@ def create_rfm_df(df):
 
     return rfm_df
 
-url = "https://raw.githubusercontent.com/muhtaromahkam/IDCamp-Library/refs/heads/main/Data%20Scientist/Belajar%20Analisis%20Data%20dengan%20Python/Praktikum/submission/dashboard/all_data.csv"
-all_df = pd.read_csv(url)
+all_df = pd.read_csv("all_data.csv")
 
 datetime_columns = ["order_purchase_timestamp", "order_delivered_carrier_date"]
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
@@ -62,7 +61,7 @@ max_date = all_df["order_purchase_timestamp"].max()
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://raw.githubusercontent.com/muhtaromahkam/IDCamp-Library/refs/heads/main/Data%20Scientist/Belajar%20Analisis%20Data%20dengan%20Python/Praktikum/submission/dashboard/logo.jpg", width=100)
+    st.image("logo.jpg", width=100)
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
